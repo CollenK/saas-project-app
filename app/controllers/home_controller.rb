@@ -11,6 +11,8 @@ class HomeController < ApplicationController
       
       @tenant = Tenant.current_tenant
       params[:tenant_id] = @tenant.id
+      
+      
     end
   end
 end
