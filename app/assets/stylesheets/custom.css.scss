@@ -68,13 +68,6 @@ li a {
   }
 }
 
-// .container {
-//     width: 100%;
-//     padding-left: 0;
-//     padding-right: 0;
-//     border-radius: 0 !important;
-// }
-
 .jumbotron {
   text-align: center;
   background-image: asset-url('projectManager.jpg');
@@ -128,4 +121,15 @@ h2 {
 
 .no-right-padding {
   padding-right: 0 !important;
+}
+
+/* Projects */
+
+.table tr td {
+  a.main-link {
+    color: #428bca;
+  }
+  a.main-link:hover {
+    background: none;
+  }
 }
